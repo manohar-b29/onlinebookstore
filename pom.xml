@@ -75,7 +75,7 @@
 	<distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://15.207.88.38:8081/repository/maven-releases/</url>    --> give accorning to urs
+            <url>http://15.207.88.38:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
@@ -83,4 +83,5 @@
         </snapshotRepository>
     </distributionManagement>
 </project>
+
 
