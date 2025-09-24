@@ -82,7 +82,15 @@
             <url>http://15.222.21.93:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+	    <plugins>
+        <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>4.0.0.4121</version> 
+        </plugin>
+    </plugins>
 </project>
+
 
 
 
